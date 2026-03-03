@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Example route
-router.route("/").get("/", (req, res) => {
+router.route("/").get((req, res) => {
     res.status(200).send("Hello");
 });
 
